@@ -1664,19 +1664,19 @@ input, select, textarea {
     margin-top: 10px; /* Adjust this value as needed */
 }
 
-.about-container {
+#equipe .about-container {
     display: flex;
-    align-items: flex-start; /* Align items at the top */
-    gap: 20px; /* Space between the image and text */
+    align-items: flex-start;
+    gap: 20px;
 }
 
-.image-left img {
-    max-width: 300px; /* Limit the image size */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 5px; /* Optional: Add rounded corners to the image */
+#equipe .image-left img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
 }
 
-.text-right {
-    flex: 1; /* Allow the text to occupy the remaining space */
-    text-align: justify; /* Justify the text for a cleaner look */
+#equipe .text-right {
+    flex: 1;
+    text-align: justify;
 }
